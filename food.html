@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Generator</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Recipe Generator</h1>
+		<form id="ingredients-form">
+
+            <!--Beverages--> 
+            <h3>Beverages</h3>
+			<input type="checkbox" id="applecider" name="applecider" value="applecider">
+			<label for="applecider">Apple Cider</label>
+			
+			<input type="checkbox" id="applejuice" name="applejuice" value="applejuice">
+			<label for="applejuice">Apple Juice</label>
+
+			<input type="checkbox" id="lemonjuice" name="lemonjuice" value="lemonjuice">
+			<label for="lemonjuice">Lemon Juice</label>
+
+            
+			<!--Bread-->
+            <h3>Breads</h3>
+			<input type="checkbox" id="bread" name="bread" value="bread">
+			<label for="bread">Bread</label>
+
+			<input type="checkbox" id="kataifi" name="kataifi" value="kataifi">
+			<label for="kataifi">Kataifi</label>
+
+			<input type="checkbox" id="piecrust" name="piecrust" value="piecrust">
+			<label for="piecrust">Pie Crust</label>
+
+            <!--Vegetables-->
+            <h3>Vegetables</h3>
+			<input type="checkbox" id="onion" name="onion" value="onion">
+			<label for="onion">Onion</label>
+
+			<input type="checkbox" id="tomato" name="tomato" value="tomato">
+			<label for="tomato">Tomato</label>
+
+			<input type="checkbox" id="eggplant" name="eggplant" value="eggplant">
+			<label for="eggplant">Egg Plant</label>
+
+            <!--Baking Essentials-->
+            <h3>Baking Essentials</h3>
+			<input type="checkbox" id="butter" name="butter" value="butter">
+			<label for="butter">Butter</label>
+
+			<input type="checkbox" id="sugar" name="sugar" value="sugar">
+			<label for="sugar">Sugar</label>
+
+			<input type="checkbox" id="bakingpowder" name="bakingpowder" value="bakingpowder">
+			<label for="bakingpowder">Baking Powder</label>
+
+            <!--Spices-->
+            <h3>Spices</h3>
+			<input type="checkbox" id="redchillipowder" name="redchillipowder" value="redchillipowder">
+			<label for="redchillipowder">Red Chilli Powder</label>
+
+			<input type="checkbox" id="corianderpowder" name="corianderpowder" value="corianderpowder">
+			<label for="corianderpowder">Coriander Powder</label>
+
+			<input type="checkbox" id="cuminseed" name="cuminseed" value="cuminseed">
+			<label for="cuminseed">Cumin Seed</label>
+
+            <!--Dairy-->
+            <h3>Dairy</h3>
+			<input type="checkbox" id="eggs" name="eggs" value="eggs">
+			<label for="eggs">Eggs</label>
+
+			<input type="checkbox" id="milk" name="milk" value="milk">
+			<label for="milk">Milk</label>
+
+			<input type="checkbox" id="cottagecheese" name="cottagecheese" value="cottagecheese">
+			<label for="cottagecheese">Cottage Cheese</label>
+
+            <!--Meats-->
+            <h3>Meats</h3>
+			<input type="checkbox" id="chicken" name="chicken" value="chicken">
+			<label for="chicken">Chicken</label>
+
+			<input type="checkbox" id="mutton" name="mutton" value="mutton">
+			<label for="mutton">Mutton</label>
+
+			<input type="checkbox" id="fish" name="fish" value="fish">
+			<label for="fish">Fish</label><br><br>
+            
+            
+            <button type="submit">Generate Recipe</button>
+		</form>
+		<div id="recipes-container">
+			<h2>Recipes:</h2>
+			<div id="recipes"></div>
+			<button id="Generate Recipe">Generate Recipe</button>
+			
+		</div>
+	</div>
+	<script src="scripts.js"></script>
+</body>
+</html>
